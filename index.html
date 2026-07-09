@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sano Game Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🎮 Sano Game Universe</h1>
+    <p class="tagline">Play • Challenge • Win • Enjoy</p>
+
+    <div class="scoreboard">
+        <div>❌ X Wins: <span id="xScore">0</span></div>
+        <div>⭕ O Wins: <span id="oScore">0</span></div>
+        <div>🤝 Draws: <span id="drawScore">0</span></div>
+    </div>
+
+    <div class="board">
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+        <button class="cell"></button>
+        <button class="cell"></button>
+        <button class="cell"></button>
+
+    </div>
+
+    <h2 id="status">Player X Turn</h2>
+
+    <button id="restart">🔄 Restart Game</button>
+
+    <div class="instructions">
+
+        <h2>📜 How to Play</h2>
+
+        <p>❌ Player 1 uses X</p>
+
+        <p>⭕ Player 2 uses O</p>
+
+        <p>✔ Get 3 symbols in a row, column or diagonal.</p>
+
+        <p>✔ If all 9 boxes are filled, it's a Draw.</p>
+
+        <p>✔ Click Restart to play again.</p>
+
+        <h3>Created by ❤️ Sano Game Universe</h3>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
